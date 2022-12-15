@@ -17,10 +17,13 @@ public class MainClass {
             System.out.println(numberArray[i]);
         }
 
-        BubbleSort bubbleSort = new BubbleSort();
-        bubbleSort.sortingMethod(numberArray);
+        //BubbleSort bubbleSort = new BubbleSort();
+        //bubbleSort.sortingMethod(numberArray);
+        //big O(n^2)
 
-        
+        InsertionSort insertionSort = new InsertionSort();
+        insertionSort.sortMethod(numberArray);
+        //big O(n^2)
     }
 
 
