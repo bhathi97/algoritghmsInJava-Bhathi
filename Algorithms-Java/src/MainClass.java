@@ -24,6 +24,10 @@ public class MainClass {
         InsertionSort insertionSort = new InsertionSort();
         insertionSort.sortMethod(numberArray);
         //big O(n^2)
+
+        //QuickSort quickSort = new QuickSort();
+        //quickSort.sortMethod(numberArray,0, numberArray.length - 1);
+
     }
 
 
